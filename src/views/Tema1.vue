@@ -2,547 +2,167 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
-        
-
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(titulo="Titulo item 2")
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-
-
-
-      Separador
-
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="Titulo item 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      ImagenInfografica.color-primario
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-      ImagenInfograficaB.color-primario
-        template(v-slot:imagen)
-          figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-          h5 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-          h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-
-      TarjetaAudio.color-primario.mb-3(
-        texto="Texto de muestra  "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
-        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      TarjetaAudio.color-secundario.mb-3(
-        texto="Texto de muestra <br> Texto de muestra "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      )
-
-      Separador
-
-
-      .tarjeta.tarjeta--azul.p-4
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        PasosB.color-acento-contenido
-          .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row(titulo="")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        LineaTiempoC.color-acento-contenido(text-small)
-          .row(titulo="Titulo 1")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-
-          .row(titulo="Titulo 2")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      SlyderF(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center FIRST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 2
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 3
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 4
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 5
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 6
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 7
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center LAST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-            
-      Separador
-
-      LineaTiempoD.color-primario
-        .row(numero="1" titulo="Praesent luctus")
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(numero="2" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
-
-        .row(numero="3" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-      TabsA.color-acento-botones
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-            strong user style sheets
-            |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-          h4 PASO 2: The splendor
-          .row
-            .col-xl-6.mb-4
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-xl-6
-              p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                strong user style sheets
-                |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-      TabsC.color-primario
-        .py-3.py-md-4(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-3.py-md-4(titulo="Don’t lie to yourself")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-
-      TabsB.color-primario
-        .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-
-      LineaTiempoE.color-primario
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen      
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      PasosA.color-primario.mb-5(tipo="n")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Lorem ipsum dolor sit amet.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la Imagen
-          .col-md-6
-            h3 Nullam vulputate mauris eros, ut.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-
-      Separador
-
-      p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+        h1 Generalidades de las frutas y verduras
+      
+      p Este material de estudio te ayudará a comprender las características, beneficios y clasificación de las frutas y verduras, esenciales para una alimentación saludable y equilibrada. Aprenderás sobre sus propiedades nutricionales, su papel en la prevención de enfermedades y cómo incorporarlas de forma efectiva a tu dieta. En este componente se exponen los temas relacionados con las características, clasificación, propiedades y componentes de las frutas y verduras, además se describen las sustancias bioactivas (antioxidantes) y los mecanismos que alteran la calidad de estos alimentos.
+      
+      .row.mb-5
+        .col-lg-5.my-3
+          img(src="../assets/curso/temas/Tema1Img1.png", alt="Imagen alineada izquierda" class="img-fluid")
+        .col-lg-7.d-flex.flex-column.justify-content-center
+          img(src="../assets/curso/temas/titulo.png", alt="Imagen alineada izquierda" class="img-fluid")
+          p Las frutas y verduras son alimentos esenciales que proporcionan numerosos beneficios para nuestra salud. Son ricas en vitaminas, minerales, fibra y antioxidantes que ayudan a mantener un cuerpo sano y a prevenir enfermedades.
+          p Su alto contenido de fibra mejora la digestión, regula los niveles de colesterol y previene el estreñimiento. Las frutas y verduras también son bajas en calorías y ricas en agua, lo que las convierte en una opción ideal para controlar el peso y mantener una buena hidratación. 
+          .cajon.color-acento-botones.p-4 Además, poseen antioxidantes que protegen nuestras células del daño causado por los radicales libres, ayudando a prevenir enfermedades como el cáncer y las enfermedades cardíacas. 
+      
+      .row
+      div#t_13_1.titulo-segundo.color-acento-botones
+        h2 1.1  Diferencia entre frutas y verduras
+
+      p Las frutas y verduras son ambas partes comestibles de las plantas, pero se diferencian en su origen y función dentro del ciclo de vida de la planta. Las frutas se desarrollan a partir de la flor y contienen las semillas de la planta. Son los elementos reproductivos de las plantas denominados ovarios, estas contienen semillas en su interior y son de colores llamativos para atraer a los animales que después de comerlas expulsan las semillas al suelo en donde comienza nuevamente el ciclo reproductivo de la planta con su germinación.
+
+      img(src="../assets/curso/temas/Tema1Img2.png", alt="Imagen alineada izquierda" class="img-fluid")
+
+      .row.my-4
+        .col-4.container-peach.p-5
+          img(src="../assets/curso/temas/Tema1Img3.png", alt="Imagen alineada izquierda" class="img-fluid")
+        .col-5.container-orange.flex-column.justify-content-center.d-flex
+          p Su función es la de proteger y dispersar las semillas para la reproducción de la planta. Por lo general, son dulces o ácidas y tienen una textura jugosa. 
+          p Las verduras, por otro lado, son otras partes de la planta, como las raíces, los tallos, las hojas y las flores. No tienen la función de reproducir la planta, pero aportan nutrientes esenciales para su crecimiento y desarrollo.
+          p Aunque algunas frutas como los tomates, los pepinos o las calabazas se consumen como verduras, en realidad son frutos que se han adaptado para ser utilizados en platos salados. 
+        .col-3
+          img(src="../assets/curso/temas/Tema1Img4.png", alt="Imagen alineada izquierda" class="img-fluid")
+      
+      .row.my-4
+        .col-4 
+          img(src="../assets/curso/temas/titulo2.png", alt="Imagen alineada izquierda" class="img-fluid",)
+      img(src="../assets/curso/temas/Tema1Img5.png", alt="Imagen alineada izquierda" class="img-fluid",)
+      
+      div.titulo-sexto.color-acento-botones.mb-3.my-3
+        h5 Tabla 1.
+        span Clasificación de las frutas.
 
       .row
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+        .tabla-a.color-acento-botones 
+          table
+            caption Nota. Sena (2024)
+            thead
+              tr
+                th Clasificación
+                th Descripcion
+                th Ejemplos
+            tbody
+              tr
+                td Tipo de semilla
+                td
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p Frutas de hueso: poseen una semilla dura y cubierta por una cáscara, como el melocotón, la ciruela o el albaricoque.
+                    .fila(style="padding: 5px 0;")
+                      p Frutas de pepitas: contienen numerosas semillas pequeñas, como la manzana, la pera, la granada, el kiwi, etc.
+                    .fila(style="padding: 5px 0;")
+                      p Frutas de grano: contienen pequeñas semillas diminutas, como las fresas, las frambuesas, las moras, etc.
+                td
+                  // Contenedor que divide la celda en tres filas
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p Melocoton
+                    .fila(style="padding: 5px 0;")
+                      p Manzana
+                    .fila(style="padding: 5px 0;")
+                      p Fresa
+                
+              tr
+                td Tiempo de recolección
+                td
+                  // Contenedor que divide la celda en tres filas
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p Frutas frescas: corresponde a las frutas que están destinas para ser consumidas a los pocos días después de ser recolectadas. Se recolectan maduras y se consumen en fresco, como la fresa, la uva, el plátano, etc.
+                    .fila(style="padding: 5px 0;")
+                      p Frutas secas: son las frutas que se han sometido a un proceso de desecación, este consiste en deshidratar las frutas con el fin de que tengan un mayor tiempo de conservación, se elimina gran parte de su contenido de agua y de igual manera se disminuye su nivel de vitaminas.
+                td
+                  // Contenedor que divide la celda en tres filas
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p Plátano, Banano.
+                    .fila(style="padding: 5px 0;")
+                      p Pasas, dátiles
+              tr
+                td Climatéricas (Esta es posiblemente la clasificación más relevante a la hora de determinar un sistema de cultivo y cosecha).
+                td
+                  // Contenedor que divide la celda en tres filas
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p Frutas de hueso: poseen una semilla dura y cubierta por una cáscara, como el melocotón, la ciruela o el albaricoque.
+                    .fila(style="padding: 5px 0;")
+                      p Frutas de pepitas: contienen numerosas semillas pequeñas, como la manzana, la pera, la granada, el kiwi, etc.
+                td
+                  // Contenedor que divide la celda en tres filas
+                  .descripcion-container(style="display: flex; flex-direction: column;")
+                    .fila(style="padding: 5px 0;")
+                      p manzana, pera, plátano, ciruela, higo, melón, aguacate, kiwi, tomate, mango, chirimoya, melocotón, melón, membrillo, sandía, papaya, entre otras.
+                    .fila(style="padding: 5px 0;")
+                      p naranja, limón, cereza, frambuesa, uva, aceituna, pimiento, pepino, piña, mora, arándano, berenjena, pomelo, granada, calabaza, calabacín, lima, fresa, entre otros.
+      
+      .row.justify-content-center.mt-5
+        .col-auto
+          a.boton.color-acento-darkgreen.texto-blanco(
+            href="https://ecored-atlantico.github.io/CATALAGO_BASE/downloads/Cajon.txt"
+            target="_blank"
+            type="application/pdf"
+          )
+            span Otras clasificaciones para las frutas son las siguientes:
 
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+        .row.d-flex.container-peach-2.my-3.p-2
+          .col-4
+            img(src="../assets/curso/temas/Tema1Img6.png", alt="Imagen alineada izquierda" class="img-fluid",)
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+          .col-8
+            SlyderF(columnas="col-lg-6 col-xl-6")
+              .tarjeta.tarjeta--blanca.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='../assets/curso/temas/Fruta1.png' alt='AvatarTop')
+                h2.text-center Frutas cítricas
+                p.text-centerson las que contienen ácido cítrico como el limón. 
 
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+              .tarjeta.tarjeta--blanca.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='../assets/curso/temas/Fruta2.png' alt='AvatarTop')
+                h2.text-center Frutas tropicales
+                p.text-center : son aquellas provenientes de climas tropicales y que deben mantenerse a temperaturas por encima de los 4 °C, de lo contrario pueden echarse a perder. 
 
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+              .tarjeta.tarjeta--blanca.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='../assets/curso/temas/Fruta3.png' alt='AvatarTop')
+                h2.text-center Frutas del bosque
+                p.text-center son las que crecen en zonas boscosas como por ejemplo las moras o las frambuesas.
 
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+              .tarjeta.tarjeta--blanca.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='../assets/curso/temas/Fruta4.png' alt='AvatarTop')
+                h2.text-center Frutos secos
+                p.text-center correspondiente a las frutas que naturalmente tienen un nivel inferior al 50% de agua y son ricos en grasas y proteínas, por lo cual aportan mucha energía a quienes los consumen.
+    
+      .col-6.my-3
+        img(src="../assets/curso/temas/titulo.png", alt="Imagen alineada izquierda" class="img-fluid")
+      img(src="../assets/curso/temas/Banner4.png", alt="Imagen alineada izquierda" class="img-fluid")
+      
+      p.py-4 Se entiende por verduras aquellas partes comestibles de las plantas; la forma en que estas se clasifican está determinada según la parte de la planta a la que corresponden. A continuación, se encuentra un listado de las clasificaciones y su respectiva descripción:
 
-        .col-sm-6.col-lg-3
-          .tarjeta--boton.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+      div.titulo-sexto.color-acento-botones.mb-3.my-3
+        h5 Tabla 2.
+        span Clasificación de verduras
 
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+      
 
-
-      Separador
-
-
-
-      .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Celebrate your<br>failures
-          p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-        .col-md.tarjeta.color-acento-botones.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-        .col-md.tarjeta.color-acento-contenido.text-white.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-
-      Separador
-
-      .row
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3.mb-4.mb-sm-0
-          .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3
-          .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-
-      Separador
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones.p-5
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
   </template>
 
 <script>
@@ -554,4 +174,13 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.container-orange
+  background-color: #FB9231
+.container-peach
+  background-color: #FFE8D2
+.boton.color-acento-darkgreen
+  background-color: #33490B
+.container-peach-2
+  background-color: #FFF0D6
+</style>

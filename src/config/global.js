@@ -1,8 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    // eslint-disable-next-line prettier/prettier
+    Name: 'Generalidades, ingredientes y aspectos higiénicos en la preparación de conservas',
+    // eslint-disable-next-line prettier/prettier
+    Description: 'Este curso virtual capacita al aprendiz en la elaboración de conservas de frutas y verduras, garantizando la inocuidad y calidad del producto final. Aprenderá sobre los principios de conservación, los métodos de esterilización, las mejores prácticas de higiene y la correcta manipulación de los alimentos. Se profundizará en la composición de las frutas y verduras, incluyendo el análisis de sustancias bioactivas y sus beneficios para la salud.  Además, se estudiarán los mecanismos de alteración de la calidad poscosecha y cómo prevenirlos para optimizar la duración y calidad de las conservas.  Al finalizar el curso, el aprendiz estará preparado para seleccionar los ingredientes adecuados, elaborar conservas de forma eficiente y aplicar prácticas de higiene y manipulación de alimentos seguras y efectivas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,12 +33,12 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Generalidades de frutas y verduras.',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Diferencia entre frutas y verduras',
             hash: 't_1_1',
           },
         ],
@@ -45,13 +47,14 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Importancia de las frutas y verduras.',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo:
+          'Ingredientes y aspectos higiénicos en la preparación de conservas.',
         desarrolloContenidos: true,
       },
     ],
