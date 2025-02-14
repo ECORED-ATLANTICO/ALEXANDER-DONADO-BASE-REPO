@@ -123,8 +123,8 @@
                     .fila(style="padding: 5px 0;")
                       p naranja, limón, cereza, frambuesa, uva, aceituna, pimiento, pepino, piña, mora, arándano, berenjena, pomelo, granada, calabaza, calabacín, lima, fresa, entre otros.
       
-        span.color-acento-darkgreen.mx-auto.col-lg-5.mb-5 Otras clasificaciones para las frutas son las siguientes: 
-
+        span.color-acento-darkgreen.mx-auto.col-lg-5.mb-5.text-center Otras clasificaciones para las frutas son las siguientes 
+ 
         .row.d-flex.container-peach-2.mb-5.p-2
           .col-lg-4.col-md-8.align-self-center
             img(src="../assets/curso/temas/Tema1Img6.png", alt="Imagen alineada izquierda" class="img-fluid",)
