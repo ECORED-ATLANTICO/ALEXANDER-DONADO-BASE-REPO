@@ -30,4 +30,39 @@
 
 figcaption
   font-weight: normal
- 
+
+.title-with-decoration
+  font-size: 1rem
+  font-weight: 700
+  position: relative
+  display: inline-block
+  padding: 10px 50px
+  background-color: $color-adicional-2
+  border-radius: 2rem
+  margin-left: 4rem
+  width: fit-content;
+  &::before
+    content: url('../assets/curso/temas/arrows.svg')
+    position: absolute
+    width: 20px;
+    top: -6px;
+    left:-50px;
+@media screen and (max-width: 1199px)
+  .title-with-decoration
+    &::before
+      top: 6px
+      left: -49px
+
+@media screen and (max-width: 991px)
+  .title-with-decoration
+    &::before
+      top: -4px
+      left: -49px
+
+@media screen and (max-width: 767px)
+  .title-with-decoration
+    &::before
+      top: 6px
+      left: -49px
+
+
