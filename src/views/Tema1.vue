@@ -125,10 +125,10 @@
       
         span.color-acento-darkgreen.mx-auto.col-lg-5.mb-5.text-center Otras clasificaciones para las frutas son las siguientes 
  
-        .row.d-flex.mb-5.p-2.w-100.container-peach-2
+        .row.mb-5.p-2.w-100.container-peach-2.color-acento-contenido
           .col-lg-4.col-md-8.align-self-center
             img(src="../assets/curso/temas/Tema1Img6.png", alt="Imagen alineada izquierda" class="img-fluid",)
-          .col-lg-8.d-flex.align-items-center
+          .col-lg-8.align-items-center
             SlyderF(columnas="col-lg-6 col-xl-6 col-md-6")
               .tarjeta.tarjeta--blanca.p-2
                 .d-flex.justify-content-center.mb-3
