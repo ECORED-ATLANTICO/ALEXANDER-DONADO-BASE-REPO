@@ -6,41 +6,39 @@
         .titulo-principal__numero
           span 2
         h1 Importancia de las frutas y verduras
-      
-      .bg_img_7
+
+      .bg_img_7.mb-5
         .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
           .col-md-6.col-lg-5.mb-2
             figure
               img(src='@/assets/curso/temas/tema2/img_1.png', alt='Texto que describa la imagen').mx-auto
           .col-lg-7
             p.mb-0 Las frutas y verduras son fundamentales en nuestra dieta y tienen un potente impacto en la salud humana, gracias a su contenido diverso y rico en compuestos bioactivos. Estas sustancias, conocidas como fitoquímicos, están presentes en los alimentos de origen vegetal e intervienen en múltiples procesos biológicos, ofreciendo beneficios que van más allá de la nutrición básica. A través de la investigación, se ha demostrado que estos compuestos pueden contribuir a la prevención de enfermedades, mejorar la salud cardiovascular y retrasar el envejecimiento. En este aparte, exploraremos las sustancias bioactivas, los esteroles vegetales y los mecanismos que afectan la calidad de las frutas y verduras, resaltando su papel crucial en la promoción del bienestar y la salud a lo largo de la vida.
-      
-      Separador
-      
+
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Sustancias bioactivas
             img.pst(src='@/assets/curso/temas/tema1/img_3.svg', alt='')
-      
-      .bg_img_8
+
+      .bg_img_8.mb-3
         .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-down")
           .col-lg-12.mb-2
             p Las sustancias bioactivas también llamadas fitoquímicos corresponden a una serie de compuestos que están presentes en los alimentos de origen vegetal, tales como las frutas y verduras. Se denominan sustancias bioactivas pues tienen actividad biológica, sin embargo no son nutrientes esenciales para la vida, aun así tiene efectos positivos en la salud de las personas. 
-  
+
           .col-lg-7.mb-3
             .cajon.bg-3.g_18.mb-3
               .row.mb-4
                 .col-lg-12.p-4.ps-5 
                   p El área de los fitoquímicos ha sido fuertemente estudiada en las últimas décadas, pues se ha encontrado que en el largo plazo tienen efectos muy positivos para las personas que las consumen, puesto que descontaminan el cuerpo de la presencia de drogas y toxinas, pueden prevenir el cáncer, neutralizan los radicales libre, mejoran la presión sanguínea y la coagulación de la sangre; por lo cual brindan protección contra enfermedades cardiovasculares. Otros beneficios que se han encontrado es que tienen algunas propiedades que retrasan los signos del envejecimiento y disminuye la probabilidad de adquirir enfermedades asociadas a la vejez.
-  
+
           .col-md-6.col-lg-5.mb-3
             figure
               img(src='@/assets/curso/temas/tema2/img_2.png', alt='Texto que describa la imagen').mx-auto
-  
-          .col-lg-10.mb-3
+
+          .col-lg-10.mb-4
             h5.text-center Un ejemplo de las diferentes sustancias bioactivas son los pigmentos de las frutas y verduras en el que se encuentran las siguientes clasificaciones:
-  
-          .col-lg-10.mb-3
+
+          .col-lg-10.mb-5
             .row.justify-content-center.mb-0
               .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-xl-0
                 .crd_hover_txt(data-aos="flip-left")
@@ -68,29 +66,25 @@
                   .crd_hover_txt--body
                     h4.mb-3 Tioles y lignanos
                     p.mb-0 Efectúan una función antioxidante y se pueden encontrarse en alimentos como el brócoli, el repollo, la cebolla, el trigo y la cebada.
-      
-      Separador
-      
+
       .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
-        .div.mb-3(data-aos="fade-right")
+        .div.mb-5(data-aos="fade-right")
           h3.bgr_3.position-relative Esteroles vegetales
             img.pst(src='@/assets/curso/temas/tema1/img_3.svg', alt='')
-      
-      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-down")
-        .col-md-6.col-lg-4.mb-2
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
+        .col-md-6.col-lg-4.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img_6.png', alt='Texto que describa la imagen').mx-auto
-        .col-lg-8.mb-2
-          p.mb-2 Corresponden a esteroles provenientes de las plantas y tienen un comportamiento similar al colesterol puesto que cumplen funciones similares: son los precursores de la síntesis de algunas hormonas y sirven para estabilizar a las membranas celulares. Además, son participes de los procesos de transporte y almacenamiento de lípidos.
-         
+        .col-lg-8.mb-4
+          p.mb-3 Corresponden a esteroles provenientes de las plantas y tienen un comportamiento similar al colesterol puesto que cumplen funciones similares: son los precursores de la síntesis de algunas hormonas y sirven para estabilizar a las membranas celulares. Además, son participes de los procesos de transporte y almacenamiento de lípidos.
+
           .cajon.bg-4.g_18.mb-3
             .row.mb-4
               .col-lg-12.p-4.ps-5 
                 p Los esteroles vegetales son beneficiosos para la salud humana y pueden encontrarse en diversos alimentos tales como los aceites de: maíz, girasol y oliva, también están presenten en siguientes los frutos secos: la lechuga, el tomate y el plátano. Entre los beneficios que brindan los esteroles vegetales está el de reducir la absorción del colesterol de alta densidad, dañino para el torrente sanguíneo. 
-  
-      Separador
-  
-      .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-down")
+
+      .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
         .col-lg-12
           .div.mb-3(data-aos="fade-right")
             h3.bgr_2.position-relative Mecanismos de alteración de la calidad de las frutas y verduras
@@ -158,27 +152,24 @@
                     .col-md-8.col-xl-4.mb-3
                       figure
                         img(src='@/assets/curso/temas/tema2/img_13.png', alt='Texto que describa la imagen').mx-auto
-  
-  
 </template>
-  
+
 <script>
-  export default {
-    name: 'Tema2',
-    components: {},
-    data: () => ({
-      // variables de vue
-    }),
-    mounted() {
-      this.$nextTick(() => {
-        this.$aosRefresh()
-      })
-    },
-    updated() {
+export default {
+  name: 'Tema2',
+  components: {},
+  data: () => ({
+    // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
       this.$aosRefresh()
-    },
-  }
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
 </script>
-  
+
 <style lang="sass"></style>
-  
