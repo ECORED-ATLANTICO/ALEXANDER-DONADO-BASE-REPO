@@ -8,17 +8,17 @@
           i.fas.fa-info
       h1 Introducción
 
-    .d-flex.align-items-center.bg-verde.mb-5         
-        .col-lg-3
-          img(src="../assets/introduccion/ImgIntroduction.png", alt="Imagen alineada izquierda" class="img-fluid")
-        .col-lg-9
-          p.mb-0.color Este componente ofrece una formación integral en la elaboración de conservas de frutas y verduras, con un enfoque en la inocuidad y la calidad del producto final. A lo largo del programa, el aprendiz adquirirá conocimientos sobre los principios fundamentales de conservación, los métodos de esterilización, y las mejores prácticas de higiene y manipulación de alimentos. Se profundizará en la composición de frutas y verduras, analizando las sustancias bioactivas y sus beneficios para la salud, y se abordarán los factores que afectan la calidad poscosecha, proporcionando herramientas para optimizar la duración de las conservas. Al finalizar, el aprendiz estará capacitado para seleccionar ingredientes de calidad y elaborar conservas de manera segura y eficiente.
-    
-    .justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.d-flex.align-items-center.bg-verde.mb-5         
+      .col-lg-3
+        img(src="../assets/introduccion/ImgIntroduction.png", alt="Imagen alineada izquierda" class="img-fluid")
+      .col-lg-9
+        p.mb-0.color Este componente ofrece una formación integral en la elaboración de conservas de frutas y verduras, con un enfoque en la inocuidad y la calidad del producto final. A lo largo del programa, el aprendiz adquirirá conocimientos sobre los principios fundamentales de conservación, los métodos de esterilización, y las mejores prácticas de higiene y manipulación de alimentos. Se profundizará en la composición de frutas y verduras, analizando las sustancias bioactivas y sus beneficios para la salud, y se abordarán los factores que afectan la calidad poscosecha, proporcionando herramientas para optimizar la duración de las conservas. Al finalizar, el aprendiz estará capacitado para seleccionar ingredientes de calidad y elaborar conservas de manera segura y eficiente.
+        
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        
 
 </template>
 
